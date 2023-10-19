@@ -1,0 +1,236 @@
+.composition-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px var(--margin-min) 0px var(--margin-min);
+  gap: 150px;
+}
+
+/* Title container*/
+.composition-title {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.composition-title h3 {
+  font-weight: 450;
+  font-size: 48px;
+}
+
+/* sub title */
+.composition-subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.composition-subtitle h5 {
+  font-weight: 450;
+  font-size: 31px;
+}
+
+/* composition main content*/
+.composition-main {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0px;
+}
+
+/* Composition columns */
+.composition-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100%;
+  max-width: 300px;
+  gap: 15px;
+}
+
+.composition-thing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  cursor: pointer;
+}
+
+.composition-thing:hover hr {
+  display: block;
+}
+
+.composition-thing div:first-child {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: var(--gray-color);
+  border-radius: 50%;
+}
+
+.composition-thing div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.composition-description {
+  display: flex;
+  margin-top: auto;
+  height: 150px;
+  justify-content: center;
+}
+
+.composition-thing hr {
+  display: none;
+}
+
+.composition-thing p {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
+.composition-thing h6 {
+  font-size: 31px;
+  font-weight: 450;
+  text-align: center;
+}
+
+/* Composition middle picture container n stuff */
+.composition-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.composition-image-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+}
+
+.composition-image-button button {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: var(--secondary-color);
+  color: var(--default-background-color);
+  border: none;
+  padding: 10px 40px;
+}
+
+.composition-image-button button:hover {
+  background-color: #c4444a;
+}
+
+.image-container {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* bottle vectors */
+.composition-bottle-vectors {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.composition-bottle-vectors img:first-child {
+  position: absolute;
+  top: 35%;
+  left: -3%;
+  overflow: hidden;
+}
+
+.composition-bottle-vectors img:last-child {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+  overflow: hidden;
+}
+
+/* Piesek */
+.dog-container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+  background-attachment: fixed;
+}
+
+.dog-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-image: url(../assetts/piesek.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.dog-vectors {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dog-vector1 {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  width: 175.72px;
+}
+
+.dog-vector2 {
+  position: absolute;
+  right: 21%;
+  top: 55%;
+  width: 175.72px;
+  transform: translate(-50%, -50%) rotate(40deg);
+}
+
+.bottom {
+  max-height: 100vh;
+}

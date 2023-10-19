@@ -1,0 +1,298 @@
+@media (max-width: 1200px) {
+  .nav {
+    padding-left: var(--margin-mobile);
+    padding-right: var(--margin-mobile);
+  }
+  .nav div:last-child {
+    display: none;
+  }
+
+  .standout-content-container {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .bottle-section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .bottle-info {
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    gap: 30px;
+  }
+
+  .info-content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .title-bis {
+    gap: 15px;
+    margin: 0px 25px 0px 25px;
+  }
+
+  .title-bis h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .title-bis p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .info-title h1:first-child {
+    font-size: 50px;
+  }
+
+  .info-title h1:last-child {
+    font-size: 50px;
+  }
+
+  .bottle-info {
+    margin-left: 0px;
+  }
+
+  .vector-1 {
+    width: 120px;
+    top: 30%;
+  }
+
+  .vector-2 {
+    width: 140px;
+    top: 55%;
+  }
+
+  .vector-3 {
+    width: 170px;
+    top: 25%;
+  }
+
+  .standout-main div {
+    width: 70%;
+  }
+
+  .standout-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 100%;
+  }
+
+  .grid-el {
+    gap: 10px;
+    width: 80%;
+  }
+
+  .text-row {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .standout-description p {
+    text-align: center;
+  }
+
+  .grid-image {
+    margin: 0 auto;
+    max-height: 500px;
+    max-width: 700px;
+  }
+
+  .el-dot-info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .grid-image img {
+    height: 500px;
+  }
+
+  .image-row:hover {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+  }
+
+  .grid-image:hover {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+  }
+
+  .image-vector {
+    overflow: hidden;
+  }
+
+  .dog-vector1 {
+    left: 21%;
+    width: 200px;
+  }
+
+  .dog-vector2 {
+    right: 5%;
+    width: 200px;
+  }
+
+  .wrapper {
+    gap: 75px;
+    margin: 20px var(--margin-600) 0px var(--margin-600);
+  }
+
+  .composition-image-container {
+    display: none;
+  }
+
+  .composition-main {
+    gap: 40px;
+  }
+
+  .composition-col {
+    max-width: 400px;
+    gap: 100px;
+  }
+  .product-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav .nav-menu ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .nav div:first-child img {
+    width: 80%;
+  }
+
+  .nav .nav-menu ul > li {
+    font-size: 14px;
+    width: max-content;
+  }
+
+  .bottle-info {
+    max-width: 100%;
+  }
+
+  .info-content {
+    max-width: 100%;
+  }
+
+  .title-bis {
+    gap: 15px;
+    margin: 0px;
+  }
+
+  .title-bis h3 {
+    font-size: 24px;
+  }
+
+  .title-bis p {
+    font-size: 16px;
+  }
+
+  .info-title h1:first-child {
+    font-size: 45px;
+  }
+
+  .info-title h1:last-child {
+    font-size: 45px;
+  }
+
+  .bottle-vector-1 {
+    width: 60px;
+  }
+
+  .bottle-vector-2 {
+    width: 60px;
+  }
+
+  .vector-1 {
+    top: 35%;
+  }
+
+  .vector-2 {
+    top: 40%;
+    width: 100px;
+  }
+
+  .vector-3 {
+    top: 45%;
+    width: 100px;
+  }
+
+  .grid-el {
+    width: 100%;
+  }
+
+  .grid-image {
+    width: 100%;
+    max-height: 100%;
+  }
+
+  .text-row {
+    flex-direction: column;
+  }
+  .el-dot-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dog-vector1 {
+    top: 40%;
+    left: 20%;
+    width: 200px;
+  }
+
+  .dog-vector2 {
+    top: 50%;
+    right: -15%;
+    width: 200px;
+  }
+
+  .wrapper {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .composition-main {
+    grid-auto-flow: row;
+  }
+
+  .composition-col {
+    gap: 15px;
+  }
+
+  .product-container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .select {
+    flex-direction: column;
+  }
+
+  .select-choose select {
+    padding: 5px 0px 5px 0px;
+  }
+}

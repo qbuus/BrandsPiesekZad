@@ -1,0 +1,30 @@
+1. 
+Projekt nie jest pixel perfect. 
+
+RWD tak jak w poleceniu we własnym zakresie. 
+
+Chciałem dodać karuzela do np. sekcji czym się projekt wyróżnia,
+lecz zrezygnowałem na rzecz grid'a lub paginacje ale w poleceniu
+był infinite scroll i kolejna strona z api po zescrollowaniu całej sekcji produktów
+
+2. 
+Wszystkie feature'y z polecenia zawarte.
+
+Chciałem przetrzymywać wartość z selekta w localStorage, by 
+użytkowanik nie musiał ponownie tego ustawiać, ale uznałem, że
+jest to opcja bez sensu z pkt widzenia ux
+
+
+3. 
+Co do walidacji danych. To w zmiane wartości w select jest
+sprawdzenia czy wartość jest int przez Boolean()
+
+4.
+Nie usuwałem nadmiaru kodu. Zostawiłem notatki, komentarze oraz
+kod, którego finalnie nie użyłem.
+
+Oczywiście mógłbym np. zrobić to w bardziej "czysty sposób" np. 
+robiąc klase modal albo inaczej podzielić kod dla większej 
+czytelności.
+
+Takie wolne wnioski. Może się na coś przydać. Pozdrawiam
